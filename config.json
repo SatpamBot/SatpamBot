@@ -1,0 +1,12 @@
+{	
+	"prefix": "multi", 
+	"defaultSessionName": "bryan-bot", 
+	"zeksKey": "BryanRfly",
+	"autoRead": true,
+	"maxLimit": 15,
+	"ownerList": ["6287724880504@s.whatsapp.net","6289649480997@s.whatsapp.net"], 
+	"apiUrl": "https://api.zeks.xyz",
+	"botname": "BryanBot", 
+	"pack": "Made With",
+	"author": "BryanBot"
+}
