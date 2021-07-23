@@ -42,6 +42,13 @@
 ```
 after start it you need to scan the qr
 #### Session name is optional
+### NOTE
+<p>Jika Mengalami Error Pada Marker (marker not found) silahkan ganti versi baileys nya ke versi 3.4.1 dengan cara
+
+- npm i @adiwajshing/baileys@3.4.1
+- npm i marker
+- npm start</p>
+
 ### Contact me
 
 - [TELEGRAM](https://t.me/justpiple)
