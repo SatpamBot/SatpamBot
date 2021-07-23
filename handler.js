@@ -2878,7 +2878,7 @@ module.exports = handle = (client, Client) => {
 				    case 'hps':
 				    case 'delete':
 				    	try {
-					if (message.message.extendedTextMessage.contextInfo.participant != cliemt.user.jid) return data.reply('Tidak Dapat Menghapus Pesan Orang Lain!')
+					if (message.message.extendedTextMessage.contextInfo.participant != client.user.jid) return data.reply('Tidak Dapat Menghapus Pesan Orang Lain!')
 					client.deleteMessage(data.from, { id: data.message.message.extendedTextMessage.contextInfo.stanzaId, remoteJid: data.from, fromMe: true })
 					 } catch (e) {
 			data.reply('' + e) 
