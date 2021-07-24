@@ -34,7 +34,6 @@
 ```
 
 #### Change `config.json` 
-##### Register in <b>[zeks.xyz](https://zeks.xyz)</b> to get apiKey then enter to zeksKey in `config.json`
 ### Start ✅
 
 ```bash
@@ -47,7 +46,9 @@ after start it you need to scan the qr
 
 - npm i @adiwajshing/baileys@3.4.1
 - npm i marker
-- npm start</p>
+- npm start
+
+Untuk mendapatkan Apu Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) untuk api xteam [Silahkan Daftar Disini](https://api.xteam/register)</p>
 
 ### Contact me
 
