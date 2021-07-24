@@ -48,7 +48,7 @@ after start it you need to scan the qr
 - npm i marker
 - npm start
 
-Untuk mendapatkan Apu Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) untuk api xteam [Silahkan Daftar Disini](https://api.xteam/register)</p>
+Untuk mendapatkan Apu Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) untuk api xteam [Silahkan Daftar Disini](https://api.xteam.xyz/register)</p>
 
 ### Contact me
 
