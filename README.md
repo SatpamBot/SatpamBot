@@ -54,7 +54,7 @@ Untuk mendapatkan Apu Zeks [Silahkan Daftar Disini](https://zeks.xyz/register) u
 
 - [TELEGRAM](https://t.me/justpiple)
 - [WHATSAPP](http://wa.me/6289649480997)
-- [GROUP CHAT WHATSAPP](https://chat.whatsapp.com/EV2o7Y4C2XNDT5AAQPZjqt)
+- [GROUP CHAT WHATSAPP](https://chat.whatsapp.com/C9azc9XSbbeDZ7nNAmkCOl)
 
 
 ## 🙏 Special Thanks to
