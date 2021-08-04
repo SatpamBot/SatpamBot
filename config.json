@@ -1,0 +1,12 @@
+{	
+	"prefix": "multi", 
+	"defaultSessionName": "Zuli-Bot", 
+	"zeksKey": "BryanRfly",
+	"autoRead": true,
+	"maxLimit": 9999,
+	"ownerList": ["6282286425538@s.whatsapp.net","6289524586005@s.whatsapp.net"], 
+	"apiUrl": "https://api.zeks.xyz",
+	"botname": "ZULISTORE BOT", 
+	"pack": "Made With",
+	"author": "@irfnadi_"
+}
