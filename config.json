@@ -1,6 +1,6 @@
 {	
 	"prefix": "multi", 
-	"defaultSessionName": "Zuli-Bot", 
+	"defaultSessionName": "Zuli-bot", 
 	"zeksKey": "BryanRfly",
 	"autoRead": true,
 	"maxLimit": 9999,
