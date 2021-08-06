@@ -30,6 +30,7 @@ const { mld } = require('./lib/mld');
 const { mlc } = require('./lib/mlc');
 const { pay } = require('./lib/pay');
 const { pubg } = require('./lib/pubg');
+const { pubgb } = require('./lib/pubgb');
 const { ragnarok } = require('./lib/ragnarok');
 const { sosis } = require('./lib/sosis');
 const { valo } = require('./lib/valo');
@@ -203,6 +204,13 @@ module.exports = handle = (client, Client) => {
        Client.cmd.on('pubg', async(data) => {
           try {
            data.reply(pubg(data.prefix, client, data)) 
+          } catch(e) {
+            data.reply('' + e) 
+          }
+     })
+      Client.cmd.on('pubgb', async(data) => {
+          try {
+           data.reply(pubgb(data.prefix, client, data)) 
           } catch(e) {
             data.reply('' + e) 
           }
@@ -1940,9 +1948,14 @@ module.exports = handle = (client, Client) => {
                 "rowId": `${data.prefix}mld`
               },
               {
-                "title": "List PUBG Mobile", 
-                "description": "Menampilkan List Pubg Mobile", 
+                "title": "List PUBG Mobile A", 
+                "description": "Menampilkan List Pubg Mobile A", 
                 "rowId": `${data.prefix}pubg`
+              },
+	      {
+                "title": "List PUBG Mobile B", 
+                "description": "Menampilkan List Pubg Mobile B", 
+                "rowId": `${data.prefix}pubgb`
               },
               {
                 "title": "List Free Fire", 
@@ -2025,9 +2038,14 @@ module.exports = handle = (client, Client) => {
                 "rowId": `${data.prefix}mld`
               },
               {
-                "title": "List PUBG Mobile", 
-                "description": "Menampilkan List Pubg Mobile", 
+                "title": "List PUBG Mobile A", 
+                "description": "Menampilkan List Pubg Mobile A", 
                 "rowId": `${data.prefix}pubg`
+              },
+	      {
+                "title": "List PUBG Mobile B", 
+                "description": "Menampilkan List Pubg Mobile B", 
+                "rowId": `${data.prefix}pubgb`
               },
               {
                 "title": "List Free Fire", 
