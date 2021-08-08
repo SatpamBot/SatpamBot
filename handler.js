@@ -1937,6 +1937,11 @@ module.exports = handle = (client, Client) => {
                 "description": "Menampilkan List FF", 
                 "rowId": `${data.prefix}ff`
               },
+	      {
+                "title": "Payment", 
+                "description": "Menampilkan List Payment", 
+                "rowId": `${data.prefix}pay`
+              },
               {
                 "title": "Help",
                 "description": "Show All Feature In Bot", 
@@ -1971,6 +1976,11 @@ module.exports = handle = (client, Client) => {
                 "title": "List Free Fire", 
                 "description": "Menampilkan List FF", 
                 "rowId": `${data.prefix}ff`
+              },
+	      {
+                "title": "Payment", 
+                "description": "Menampilkan List Payment", 
+                "rowId": `${data.prefix}pay`
               },
               {
                 "title": "Help",
