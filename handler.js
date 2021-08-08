@@ -1928,69 +1928,14 @@ module.exports = handle = (client, Client) => {
           sec.push({
             "rows": [
               {
-                "title": "List Mobile Legend A", 
-                "description": "Menampilkan List ML A", 
+                "title": "List Mobile Legend", 
+                "description": "Menampilkan List ML", 
                 "rowId": `${data.prefix}mla`
-              },
-              {
-                "title": "List Mobile Legend B", 
-                "description": "Menampilkan List ML B", 
-                "rowId": `${data.prefix}mlb`
-              },
-              {
-                "title": "List Mobile Legend C", 
-                "description": "Menampilkan List ML C", 
-                "rowId": `${data.prefix}mlc`
-              },
-              {
-                "title": "List Mobile Legend D", 
-                "description": "Menampilkan List ML D", 
-                "rowId": `${data.prefix}mld`
-              },
-              {
-                "title": "List PUBG Mobile A", 
-                "description": "Menampilkan List Pubg Mobile A", 
-                "rowId": `${data.prefix}pubg`
-              },
-	      {
-                "title": "List PUBG Mobile B", 
-                "description": "Menampilkan List Pubg Mobile B", 
-                "rowId": `${data.prefix}pubgb`
               },
               {
                 "title": "List Free Fire", 
                 "description": "Menampilkan List FF", 
                 "rowId": `${data.prefix}ff`
-              },
-              {
-                "title": "List Dragon Raja", 
-                "description": "Menampilkan List Dragon Raja", 
-                "rowId": `${data.prefix}dragon`
-              },
-              {
-                "title": "List Gift Skin", 
-                "description": "Menampilkan List Gift Skin", 
-                "rowId": `${data.prefix}gifskin`
-              },
-              {
-                "title": "List Life After", 
-                "description": "Menampilkan List Life After", 
-                "rowId": `${data.prefix}lifeafter`
-              },
-              {
-                "title": "List Ragnarok X",
-                "description": "Menampilkan List Ragnarok X", 
-                "rowId": `${data.prefix}ragnarok`
-              },
-              {
-                "title": "List Sausage Man", 
-                "description": "Menampilkan List Sausage Man", 
-                "rowId": `${data.prefix}sosis`
-              },
-              {
-                "title": "Payment Method", 
-                "description": "Menampilkan Metode Pembayaran", 
-                "rowId": `${data.prefix}pay`
               },
               {
                 "title": "Help",
@@ -2006,7 +1951,7 @@ module.exports = handle = (client, Client) => {
               })
           	let po = client.prepareMessageFromContent(data.from, {
 				  "listMessage":{
-                  "title": `Hai Kak ${data.pushname} Ini Button List ZuliStore!`,
+                  "title": `Hai Kak ${data.pushname} Ini Button List SATPAM BOT JAMES STORE!`,
                   "description": `${configs.botname} By @irfnadi_`,
                   "buttonText": "Klik Disini!",
                   "listType": "SINGLE_SELECT",
@@ -2018,69 +1963,14 @@ module.exports = handle = (client, Client) => {
           sec.push({
             "rows": [
               {
-                "title": "List Mobile Legend A", 
-                "description": "Menampilkan List ML A", 
+                "title": "List Mobile Legend", 
+                "description": "Menampilkan List ML", 
                 "rowId": `${data.prefix}mla`
-              },
-              {
-                "title": "List Mobile Legend B", 
-                "description": "Menampilkan List ML B", 
-                "rowId": `${data.prefix}mlb`
-              },
-              {
-                "title": "List Mobile Legend C", 
-                "description": "Menampilkan List ML C", 
-                "rowId": `${data.prefix}mlc`
-              },
-              {
-                "title": "List Mobile Legend D", 
-                "description": "Menampilkan List ML D", 
-                "rowId": `${data.prefix}mld`
-              },
-              {
-                "title": "List PUBG Mobile A", 
-                "description": "Menampilkan List Pubg Mobile A", 
-                "rowId": `${data.prefix}pubg`
-              },
-	      {
-                "title": "List PUBG Mobile B", 
-                "description": "Menampilkan List Pubg Mobile B", 
-                "rowId": `${data.prefix}pubgb`
               },
               {
                 "title": "List Free Fire", 
                 "description": "Menampilkan List FF", 
                 "rowId": `${data.prefix}ff`
-              },
-              {
-                "title": "List Dragon Raja", 
-                "description": "Menampilkan List Dragon Raja", 
-                "rowId": `${data.prefix}dragon`
-              },
-              {
-                "title": "List Gift Skin", 
-                "description": "Menampilkan List Gift Skin", 
-                "rowId": `${data.prefix}gifskin`
-              },
-              {
-                "title": "List Life After", 
-                "description": "Menampilkan List Life After", 
-                "rowId": `${data.prefix}lifeafter`
-              },
-              {
-                "title": "List Ragnarok X",
-                "description": "Menampilkan List Ragnarok X", 
-                "rowId": `${data.prefix}ragnarok`
-              },
-              {
-                "title": "List Sausage Man", 
-                "description": "Menampilkan List Sausage Man", 
-                "rowId": `${data.prefix}sosis`
-              },
-              {
-                "title": "Payment Method", 
-                "description": "Menampilkan Metode Pembayaran", 
-                "rowId": `${data.prefix}pay`
               },
               {
                 "title": "Help",
@@ -2096,7 +1986,7 @@ module.exports = handle = (client, Client) => {
               })
           	let po = client.prepareMessageFromContent(data.from, {
 				  "listMessage":{
-                  "title": `Hai Kak ${data.pushname} Ini Button List ZuliStore!`,
+                  "title": `Hai Kak ${data.pushname} Ini Button List SATPAM BOT JAMES STORE!`,
                   "description": `${configs.botname} By @irfnadi_`,
                   "buttonText": "Klik Disini!",
                   "listType": "SINGLE_SELECT",
